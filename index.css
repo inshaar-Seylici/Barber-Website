@@ -1,0 +1,704 @@
+*{
+    margin: 0px;
+}
+
+ 
+
+
+
+.header{
+    height: 40px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    padding: 49px 40px;
+    
+}
+
+.container h1{
+    animation-name: head;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.header i{
+    display: none;
+}
+
+.button:hover{
+    animation-name: button;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes OFF{
+    from{
+        color: yellow;
+    }
+
+    to{
+        color: rgb(255, 0, 0);
+    }
+}
+
+.discount H2{
+
+
+    animation-name: OFF;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+@keyframes head{
+    from{
+        color: yellow;
+    }
+
+    to{
+        color: rgb(255, 0, 0);
+    }
+}
+
+
+
+@keyframes buton{
+    from{
+        background-color: yellow;
+    }
+
+    to{
+        background-color: rgb(255, 0, 0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.lists{
+    display: flex;
+}
+
+.lists ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin-right: 150px;
+}
+.button button{
+    padding: 10px;
+
+    border: none;
+    border-radius: 10px;
+}
+
+/* section two */
+
+.container{
+    height: 380px;
+    background-color: blue;
+    padding: 30px  50px;
+    color: white;
+ display: flex;
+ background-image:  url(./images/bg\ \(2\).jpg);
+ 
+ 
+ 
+}
+
+ 
+.best-Hair{
+    margin: 20px 200px;
+     
+}
+
+.best-Hair h1{
+     font-size: 53px;
+     margin-left: 130px;
+
+}
+.best-Hair p{
+    margin: 0px 140px;
+    
+    font-size: 24px;
+}
+
+.Book-Now{
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 12px;
+    background-color: orange;
+      
+}
+.All-Services{
+
+    padding: 10px;
+    width: 100px;
+    border: none;
+    border-radius: 12px;
+    background-color: orange;
+    margin-top: 25px;
+    margin-left: 20px;
+  
+    
+
+}
+.button{
+    margin-left: 240px;
+    
+}
+ button:hover{
+    color: red;
+ }
+ 
+
+ /* Section Three */
+
+ 
+
+ .About-parent{
+
+    display: flex;
+    gap: 60px;
+    margin-top: 50px;
+ }
+ .About-parent img{
+    width: 500px;
+    height: 400px;
+    margin-left: 40px;
+ }
+
+ .About-Right{
+    width: 500px;
+    margin-top: 40px;
+ }
+ .About-Right p{
+    font-family:Impact, Haettenschweiler, ;
+ }
+
+ .About-Right h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+
+ .About-Right button{
+    padding: 10px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: orange;
+ 
+  
+ }
+
+
+/* section four */
+ 
+
+ 
+ .Why h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, ;
+    margin-top: 80px;
+}
+
+.Experienced-Staff{
+    width: 500px;
+    margin-left: 60px;
+    margin-top: 120px;
+}
+.Experienced-Staff h6{
+    font-size: 22px;
+    color:blue;
+    margin-bottom: 20px;
+}
+.Experienced-Staff p{
+    margin-left: 20px;
+    font-size: 15px;
+}
+.image img{
+width: 400px;
+height:400px;
+margin-top: 50px;
+}
+
+.Experienced{
+display: flex;
+gap: 170px;
+}
+
+
+
+
+/* section five */
+
+.Popular-product{
+ display: flex;
+ margin-left: 120px;
+ margin-top: 30px;
+
+     
+}
+ 
+
+.Popular-dives{
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 2px 2px black;
+    
+
+ 
+
+
+}
+.Popular-dives img{
+    width: 120px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 30px;
+
+}
+
+
+.Popular-dives p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+.h h1{
+    text-align: center;
+    font-family:Verdana, G ;
+    margin-top: 80px;
+    
+}
+
+
+/* section six */
+
+.We-provide h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, ;
+    margin-top: 70px;
+
+ }
+ .We-provide img{
+    width: 360px;
+    height: 220px;
+    display: grid;
+    margin-left: 50px;
+    
+    
+ }
+ .imagees{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+
+ }
+ .both-image{
+    margin-left: 260px;
+    margin-top: 50px;
+
+ }
+
+
+
+
+ /* section seven */
+
+.discount{
+    height: 300px;
+    background-color: white;
+    display: flex;
+    gap: 15PX;
+box-shadow: 0px 0px 2px 2px black;
+    padding: 40px 260px;
+    margin-top: 80px;
+}
+
+
+ 
+
+.discount h2{
+    font-size: 90px;
+    width: 100px;
+    margin-top: 60px;
+    color: red;
+}
+.discount h3{
+    font-size: 20px;
+    width: 100px;
+    margin-left: 80px;
+    margin-top: 35px;
+   font-weight: 400%;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   margin-top: 100px;
+ 
+    
+}
+
+ 
+.discount img{
+    margin: 0px 200px;
+    width: 350px;
+    height: 300px;
+}
+
+
+/* section Eight */
+
+
+
+
+.client-say h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, ;
+    margin-top: 100px;
+
+
+ }
+
+ .Sadam-say{
+    width: 470px;
+    height: 250px;
+    background-color: white;
+    border-radius: 12px;
+    margin: 60px 50px;
+    display: flex;
+    gap: 30px;
+    position: relative;
+    box-shadow:  0px 0px 20px 2px black;
+
+    
+ }
+
+ .Sadam-say img{
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+ }
+ .Sadam-say h1{
+    margin: 25px 0px;
+    font-family: 'Courier New', Courier, ;
+    font-size: 24px;
+ }
+
+ .p p{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    top: 120px;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', ;
+
+ }
+
+ .comments{
+    display: flex;
+ }
+  
+
+
+.footer{
+    height: 360px;
+    background-color: antiquewhite;
+}
+
+ .visit{
+    margin-left: 480px;
+    padding: 5px;
+ }
+
+
+.flex{
+    display: flex;
+     gap: 30px;
+    margin-top: 60px;
+    margin-left: 220px;
+}
+
+ 
+.information ul{
+    list-style: none;
+    margin: 13px 0px;
+     
+}
+
+.information li{
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif  'Arial Narrow';
+}
+
+.information h2{
+    margin-left: 40px;
+}
+ 
+
+
+.Helpful-link ul{
+    list-style: none;
+    margin: 13px 0px;
+     
+}
+
+.Helpful-link ul{
+    list-style: none;
+    margin: 13px 0px;
+     
+}
+
+.Helpful-link li{
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif  'Arial Narrow';
+}
+
+.Helpful-link h2{
+    margin-left: 40px;
+}
+ 
+
+
+.Helpful-link ul{
+    list-style: none;
+    margin: 13px 0px;
+     
+}
+
+
+
+
+
+
+.Our-Services ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.Our-Services li{
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif  'Arial Narrow';
+}
+
+.Our-Services h2{
+    margin-left: 40px;
+}
+
+
+
+.Our-Services ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.Our-Services li{
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif  'Arial Narrow';
+}
+
+.Our-Services h2{
+    margin-left: 40px;
+}
+
+
+
+
+.Contect-us{
+    margin-right: 50px;
+}
+ 
+.Contect-us ul{
+    list-style: none;
+    margin: 13px 0px;
+     
+}
+
+.Contect-us li{
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif  'Arial Narrow';
+}
+
+.Contect-us h2{
+    margin-left: 40px;
+}
+ 
+
+.icons i{
+   margin-top: 10px;
+   font-size: 30px;
+    padding: 5px;
+ 
+} 
+ 
+
+hr{
+    margin-top: 70px;
+    font-size: 22px;
+}
+
+ #p{
+    text-align: center;
+ }
+
+
+
+ @media screen and (max-width: 600px){
+
+
+
+
+
+.lists ul,button {
+    display: none;
+}
+.header i{
+     margin-left: 170PX;
+}
+.header H1{
+    font-size: 22PX;
+    margin-left: 140PX;
+}
+
+.container {
+ padding: 0px;
+ margin: 0px;
+ width:553px;
+}
+
+.best-Hair h1{
+   
+    margin-left: -100px;
+    font-size: 14px;
+     
+}
+.best-Hair p{
+    margin-left: -60px;
+    font-size: 19px;
+}
+.About-parent{
+    flex-direction: column;
+}
+.About-parent img{
+    width: 500px;
+    height: 400px;
+    margin: 0px;
+    margin-left: 20px;
+}
+.About-Right h1{
+    margin-left: 60px;
+}
+.About-Right p{
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+}
+ 
+.Experienced{
+    flex-direction: column;
+}
+.Experienced-Staff{
+    width: 200px;
+    height: 200px;
+     
+}
+.Why h1{
+  margin-top: 120px;
+  
+}
+.Experienced-Staff{
+    margin-top: -1px;
+    margin-bottom: 40px;
+}
+.image img{
+    margin-left: 30px;
+}
+.h h1{
+    font-size: 22px;
+ margin: 20px ;
+ 
+}
+ .Popular-product{
+  flex-direction: column;
+  margin: 0px;
+  margin-left: 85px;
+ }
+
+ .imagees{
+    flex-direction: column;
+     margin-left: -280px;
+  
+ }
+
+ .discount h2{
+     font-size: 22px;
+     margin: 0px;
+     margin-left: -200px;
+ }
+ .discount h3{
+    font-size: 22px;
+    margin: 0px;
+    margin-left: -200px;
+}
+.discount{
+    height: 1pin00px;
+    width: 0px;
+}
+.discount{
+    flex-direction: column;
+}
+
+.discount img{
+    width: 200px;
+    height: 200px;
+    margin-left: -200px;
+    margin-top: 20px;
+}
+.comments{
+    flex-direction: column;
+  
+}
+.Sadam-say{
+    margin: 20px  80px;
+    width: 370PX;
+
+}
+
+
+.flex{
+    flex-direction: column;
+   
+}
+
+.footer{
+
+    height: 900PX;
+}
+ 
+
+#Visid{
+    margin-left: 160px;
+   
+}
+
+ }
+    
+ 
